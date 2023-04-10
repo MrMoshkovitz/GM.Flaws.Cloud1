@@ -25,3 +25,13 @@
 
 | :zap:        Ignore at your own risk!   |
 |-----------------------------------------|
+
+
+
+1. Boxes from a single cell table:
+| :exclamation:  This is very important   |
+|-----------------------------------------|
+
+2. Boxes from a single row table with 2 cells:
+| :memo:        | Take note of this       |
+|---------------|:------------------------|
