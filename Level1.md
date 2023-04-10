@@ -31,18 +31,15 @@
 4. ['grep'](https://www.gnu.org/software/grep/ "Grep Command Line Tool")
 5. 
 
-
 ### Important Notes From Level 1 
 | :pushpin: Pin                 | Content                                                               |
 |-------------------------------|:----------------------------------------------------------------------|
 | :pushpin:  Bucket IP Example  | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |   
-|-------------------------------|:----------------------------------------------------------------------|
 | :pushpin:  Bucket URL         | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |
-|-------------------------------|:----------------------------------------------------------------------|
 | :pushpin:  Level Secret File  | `secret-dd02c7c.html`                                                 |
-|-------------------------------|:----------------------------------------------------------------------|
-| :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`    
-|-------------------------------|:----------------------------------------------------------------------|
+| :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`        |
+
+
 
 
 ### Commands Used in Level 1 
