@@ -23,35 +23,55 @@
 > **Warning**
 > This is a warning
 
-> **Caution**
-> This is a caution
+> **Check**
+> This is OK
 
-> **Important**
-> This is important
 
-> **Tip**
-> This is a tip
 
-> **Example**
-> This is an example
 
-> **See also**
-> This is a see also
+> [!NOTE]
+> Information the user should notice even if skimming.
 
-> **Reference**
-> This is a reference
+> [!TIP]
+> Optional information to help a user be more successful.
 
-> **Summary**
-> This is a summary
+> [!IMPORTANT]
+> Essential information required for user success.
 
-> **Details**
-> This is a details
+> [!CAUTION]
+> Negative potential consequences of an action.
 
-> **Question**
-> This is a question
+> [!WARNING]
+> Dangerous certain consequences of an action.
 
-> **Answer**
-> This is an answer
+:::note
+This is a note
+:::
+
+:::warning
+This is a warning
+:::
+
+> [!NOTE]
+> This is a note. 
+
+> [!Note] Callout can have an _optional_ title
+> Callouts can also be nested:
+> > [!Hint]- You can also create foldable callouts with `+` or `-`
+> > This is hidden until unfolded.
+
+
+--[!Note]
+This is the subtext for Note
+until line break, `<br>` occurs
+
+--[!Warning] 
+This is the subtext for Warning
+until line break, `<br>` occurs
+
+--[!Alert] 
+This is the subtext for Alert
+until line break, `<br>` occurs
 
 
 
