@@ -33,36 +33,18 @@
 > This is a Caution
 
 
-> **NOTE**
+
+> [!Note]
+> Information the user should notice even if skimming.
+
+> [NOTE]
+> Information the user should notice even if skimming.
+
+> [!]
+> Information the user should notice even if skimming.
+
+> [!Note]
 > This is a note
-
-> **WARNING**
-> This is a warning
-
-> **IMPOTATNT**
-> This is a Important
-
-> **TIP**
-> This is a Tip
-
-> **CAUTION**
-> This is a Caution
-
-> **!NOTE**
-> This is a note
-
-> **!WARNING**
-> This is a warning
-
-> **!IMPOTATNT**
-> This is a Important
-
-> **!TIP**
-> This is a Tip
-
-> **!CAUTION**
-> This is a Caution
-
 
 
 
