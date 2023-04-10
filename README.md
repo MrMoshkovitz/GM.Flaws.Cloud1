@@ -23,15 +23,11 @@
 > **Warning**
 > This is a warning
 
-> **TIP**
-> This is a warning
 
 
 
 
-
-> [!NOTE]
-> Information the user should notice even if skimming.
+[!NOTE](Information the user should notice even if skimming.)
 
 > [!TIP]
 > Optional information to help a user be more successful.
@@ -88,8 +84,11 @@
 
 ## Markdown COLOR!
 ![**Warning**] asacs
+
 [!**Warning**] asacs
+
 ![Warning] asacs
+
 [!Warning] asacs
 
 
