@@ -16,13 +16,52 @@
 
 
 ## Markdown Notes
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+
+> **Caution**
+> This is a caution
+
+> **Important**
+> This is important
+
+> **Tip**
+> This is a tip
+
+> **Example**
+> This is an example
+
+> **See also**
+> This is a see also
+
+> **Reference**
+> This is a reference
+
+> **Summary**
+> This is a summary
+
+> **Details**
+> This is a details
+
+> **Question**
+> This is a question
+
+> **Answer**
+> This is an answer
+
+
+
 ### Box Notes
 1. Boxes from a single cell table:
 
 | :exclamation:  This is very important   |
 |-----------------------------------------|
 
-1. Boxes from a single row table with 2 cells:
+2. Boxes from a single row table with 2 cells:
 
 | :memo:        | Take note of this       |
 |---------------|:------------------------|
@@ -42,15 +81,3 @@
 11. :memo: Memo :memo:
 12. :pushpin: Pushpin :pushpin:
 13. :link: Link :link:
-
-
-
-
-
-
-
-> **Note**
-> This is a note
-
-> **Warning**
-> This is a warning
