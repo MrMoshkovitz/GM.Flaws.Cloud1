@@ -1,71 +1,3 @@
-# Flaws.Cloud 1 - Walkthrough Cheat Sheet
-
-## Challenge Prerequisities 
-1. AWS CLI 
-   1.  `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
-   2.  `unzip awscliv2.zip`
-   3.  `sudo ./aws/install`
-2. AWS User - From Level 2 onwards
-   1.  `aws configure`
-   2.  `aws configure list`
-   3.  `aws sts get-caller-identity`
-3.  
-
-## Challenge Tools
-1. [`nslookup`](https://www.nslookup.io/ "DNS Lookup Tool")
-2. [`aws s3 ls`](https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html "AWS S3 List Command")
-3. [`curl`](https://curl.haxx.se/ "Curl Command Line Tool")
-4. ['grep'](https://www.gnu.org/software/grep/ "Grep Command Line Tool")
-5. 
-
-
-## Important Notes from Challenge
-| :pushpin: Pin                 | Content                                                               |
-|-------------------------------|:----------------------------------------------------------------------|
-| :pushpin:  Bucket IP Example  | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |   
-| :pushpin:  Bucket URL         | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |
-| :pushpin:  Level Secret File  | `secret-dd02c7c.html`                                                 |
-| :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`        |
-
-
-## Commands Used in Challenge
-| :pager: Command                                                                           | Description                                                           |
-|-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-| :pager:  `nslookup flaws.cloud`                                                           | Execute NS Lookup Against Challenge URL                               |   
-| :pager `aws s3 ls  s3://flaws.cloud/ --no-sign-request --region us-west-2`                | Access & List S3 Bucket Files using AWS CLI - Un-Authenticated        |
-| :pager:  `curl -s http://flaws.cloud/secret-dd02c7c.html | grep -oP '<a href="\K[^"]+'`   | Get Level 2 URL From Secret File                                      |
-
-## Challenge Table Of Content 
-- [Flaws.Cloud 1 - Walkthrough Cheat Sheet](#flawscloud-1---walkthrough-cheat-sheet)
-  - [Challenge Prerequisities](#challenge-prerequisities)
-  - [Challenge Tools](#challenge-tools)
-  - [Important Notes from Challenge](#important-notes-from-challenge)
-  - [Commands Used in Challenge](#commands-used-in-challenge)
-  - [Challenge Table Of Content](#challenge-table-of-content)
-  - [Level 1 - AWS Enumeration](#level-1---aws-enumeration)
-    - [Level 1 Prerequisites](#level-1-prerequisites)
-    - [Level 1 Table of Contents](#level-1-table-of-contents)
-    - [Level 1 Tools](#level-1-tools)
-    - [Important Notes From Level 1](#important-notes-from-level-1)
-    - [Commands Used in Level 1](#commands-used-in-level-1)
-    - [Level 1 Steps](#level-1-steps)
-      - [Level 1 Step 1 - Executing NS Lookup Against Challenge URL](#level-1-step-1---executing-ns-lookup-against-challenge-url)
-        - [Level 1 Step 1 Response - Discovered IP's](#level-1-step-1-response---discovered-ips)
-      - [level 1 Step 2 Execute NS Lookup Against Discovered IP/IP's](#level-1-step-2-execute-ns-lookup-against-discovered-ipips)
-        - [level 1 Step 2 Response - Discovered \& Tranlsated S3 Bucket](#level-1-step-2-response---discovered--tranlsated-s3-bucket)
-      - [level 1 Step 3 Access \& List S3 Bucket Files using AWS CLI - Un-Authenticated](#level-1-step-3-access--list-s3-bucket-files-using-aws-cli---un-authenticated)
-      - [level 1 Step 3 Response - Discovered Secret File](#level-1-step-3-response---discovered-secret-file)
-      - [level 1 Step 4 Get Level 2 URL From Secret File](#level-1-step-4-get-level-2-url-from-secret-file)
-        - [level 1 Step 4 Response](#level-1-step-4-response)
-
-
-
-
-
-
-
-
-
 ## Level 1 - AWS Enumeration
 
 ### Level 1 Prerequisites
@@ -75,27 +7,21 @@
    3.  `sudo ./aws/install`
 
 ### Level 1 Table of Contents
-- [Flaws.Cloud 1 - Walkthrough Cheat Sheet](#flawscloud-1---walkthrough-cheat-sheet)
-  - [Challenge Prerequisities](#challenge-prerequisities)
-  - [Challenge Tools](#challenge-tools)
-  - [Important Notes from Challenge](#important-notes-from-challenge)
-  - [Commands Used in Challenge](#commands-used-in-challenge)
-  - [Challenge Table Of Content](#challenge-table-of-content)
-  - [Level 1 - AWS Enumeration](#level-1---aws-enumeration)
-    - [Level 1 Prerequisites](#level-1-prerequisites)
-    - [Level 1 Table of Contents](#level-1-table-of-contents)
-    - [Level 1 Tools](#level-1-tools)
-    - [Important Notes From Level 1](#important-notes-from-level-1)
-    - [Commands Used in Level 1](#commands-used-in-level-1)
-    - [Level 1 Steps](#level-1-steps)
-      - [Level 1 Step 1 - Executing NS Lookup Against Challenge URL](#level-1-step-1---executing-ns-lookup-against-challenge-url)
-        - [Level 1 Step 1 Response - Discovered IP's](#level-1-step-1-response---discovered-ips)
-      - [level 1 Step 2 Execute NS Lookup Against Discovered IP/IP's](#level-1-step-2-execute-ns-lookup-against-discovered-ipips)
-        - [level 1 Step 2 Response - Discovered \& Tranlsated S3 Bucket](#level-1-step-2-response---discovered--tranlsated-s3-bucket)
-      - [level 1 Step 3 Access \& List S3 Bucket Files using AWS CLI - Un-Authenticated](#level-1-step-3-access--list-s3-bucket-files-using-aws-cli---un-authenticated)
-      - [level 1 Step 3 Response - Discovered Secret File](#level-1-step-3-response---discovered-secret-file)
-      - [level 1 Step 4 Get Level 2 URL From Secret File](#level-1-step-4-get-level-2-url-from-secret-file)
-        - [level 1 Step 4 Response](#level-1-step-4-response)
+- [Level 1 - AWS Enumeration](#level-1---aws-enumeration)
+  - [Level 1 Prerequisites](#level-1-prerequisites)
+  - [Level 1 Table of Contents](#level-1-table-of-contents)
+  - [Level 1 Tools](#level-1-tools)
+  - [Important Notes From Level 1](#important-notes-from-level-1)
+  - [Commands Used in Level 1](#commands-used-in-level-1)
+  - [Level 1 Steps](#level-1-steps)
+    - [Level 1 Step 1 - Executing NS Lookup Against Challenge URL](#level-1-step-1---executing-ns-lookup-against-challenge-url)
+      - [Level 1 Step 1 Response - Discovered IP's](#level-1-step-1-response---discovered-ips)
+    - [level 1 Step 2 Execute NS Lookup Against Discovered IP/IP's](#level-1-step-2-execute-ns-lookup-against-discovered-ipips)
+      - [level 1 Step 2 Response - Discovered \& Tranlsated S3 Bucket](#level-1-step-2-response---discovered--tranlsated-s3-bucket)
+    - [level 1 Step 3 Access \& List S3 Bucket Files using AWS CLI - Un-Authenticated](#level-1-step-3-access--list-s3-bucket-files-using-aws-cli---un-authenticated)
+    - [level 1 Step 3 Response - Discovered Secret File](#level-1-step-3-response---discovered-secret-file)
+    - [level 1 Step 4 Get Level 2 URL From Secret File](#level-1-step-4-get-level-2-url-from-secret-file)
+      - [level 1 Step 4 Response](#level-1-step-4-response)
 
 
 ### Level 1 Tools
@@ -109,10 +35,10 @@
 ### Important Notes From Level 1 
 | :pushpin: Pin                 | Content                                                               |
 |-------------------------------|:----------------------------------------------------------------------|
-| :pushpin:  Bucket IP Example  | `52.92.145.3`               |   
+| :pushpin:  Bucket IP Example  | `52.92.145.3`                                                         |   
 | :pushpin:  Bucket URL         | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |
 | :pushpin:  Level Secret File  | `secret-dd02c7c.html`                                                 |
-| :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`        |
+| :pushpin:  Level 2 URL        | `http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/`         |
 
 
 ### Commands Used in Level 1 
