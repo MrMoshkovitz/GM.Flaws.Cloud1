@@ -35,10 +35,10 @@
 ### Important Notes From Level 1 
 | :pushpin: Pin                 | Content                                                               |
 |-------------------------------|:----------------------------------------------------------------------|
-| :pushpin:  Bucket IP Example  | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |   
+| :pushpin:  Bucket IP Example  | `52.92.145.3`                                                         |   
 | :pushpin:  Bucket URL         | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com`               |
 | :pushpin:  Level Secret File  | `secret-dd02c7c.html`                                                 |
-| :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`        |
+| :pushpin:  Level 2 URL        | `http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/`         |
 
 
 ### Commands Used in Level 1 
@@ -153,8 +153,6 @@ curl -s $url | grep -oP '<a href="\K[^"]+'
 
 
 
-| :memo: URL       | `curl -s $url | grep -oP '<a href="\K[^"]+`                 |
-|-------------------|:-----------------------------------------------------------|
 
 ##### level 1 Step 4 Response
 
