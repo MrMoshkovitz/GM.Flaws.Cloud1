@@ -32,22 +32,8 @@
 > **Caution**
 > This is a Caution
 
-
-
-> [!Note]
-> Information the user should notice even if skimming.
-
-> [NOTE]
-> Information the user should notice even if skimming.
-
-> [!]
-> Information the user should notice even if skimming.
-
-> [!Note]
-> This is a note
-
-
-
+```
+TBD - To Fix
 > [!NOTE]
 > Information the user should notice even if skimming.
 
@@ -62,7 +48,7 @@
 
 > [!CAUTION]
 > Negative potential consequences of an action.
-
+```
 
 
 
