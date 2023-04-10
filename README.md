@@ -1,4 +1,3 @@
-
 ## Markdown Comments:
 [Markdown Comments](https://stackoverflow.com/questions/4823468/comments-in-markdown)
 ```
@@ -17,30 +16,70 @@
 
 ## Markdown Notes
 
+
 > **Note**
 > This is a note
 
 > **Warning**
 > This is a warning
 
+> **Important**
+> This is a Important
+
+> **Tip**
+> This is a Tip
+
+> **Caution**
+> This is a Caution
+
+
+> **NOTE**
+> This is a note
+
+> **WARNING**
+> This is a warning
+
+> **IMPOTATNT**
+> This is a Important
+
+> **TIP**
+> This is a Tip
+
+> **CAUTION**
+> This is a Caution
+
+> **!NOTE**
+> This is a note
+
+> **!WARNING**
+> This is a warning
+
+> **!IMPOTATNT**
+> This is a Important
+
+> **!TIP**
+> This is a Tip
+
+> **!CAUTION**
+> This is a Caution
 
 
 
 
 > [!NOTE]
-> Information the user should notice even if skimming
+> Information the user should notice even if skimming.
 
-> [!TIP]
-> Optional information to help a user be more successful.
+> [!WARNING]
+> Dangerous certain consequences of an action.
 
 > [!IMPORTANT]
 > Essential information required for user success.
 
+> [!TIP]
+> Optional information to help a user be more successful.
+
 > [!CAUTION]
 > Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
 
 
 
@@ -84,15 +123,6 @@
 
 
 ## Markdown COLOR!
-![**Warning**] asacs
-
-[!**Warning**] asacs
-
-![Warning] asacs
-
-[!Warning] asacs
-
-
 - ![##ff2010](https://placehold.it/12/ff0000?text=+) red!
 - ![#9900c5](https://placehold.it/15/9900c5?text=+) purple!
 - ![#157500](https://placehold.it/20/157500?text=+) green!
