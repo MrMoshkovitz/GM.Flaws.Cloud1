@@ -42,3 +42,15 @@
 11. :memo: Memo :memo:
 12. :pushpin: Pushpin :pushpin:
 13. :link: Link :link:
+
+
+
+
+
+
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
