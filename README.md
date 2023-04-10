@@ -9,7 +9,6 @@
 [//]: # (This may be the most platform independent comment)
 ```
 
-
 ## Markdown ToC:
 1. Markdown All in One EXT
 2. Ctrl + Shift + P
@@ -46,14 +45,6 @@
 > [!WARNING]
 > Dangerous certain consequences of an action.
 
-<Warning>
-*bar*
-</Warning>
-
-
-<Note>
-*bar*
-</Note>
 
 
 
@@ -68,9 +59,18 @@
 | :memo:        | Take note of this       |
 |---------------|:------------------------|
 
+3. Boxes from a 2 row table
+
+| :warning: WARNING          |
+|:---------------------------|
+| I should warn you ...      |
+
+
+
 
 ## Markdown Emojis
 1. :warning: Warning :warning:
+   1.  
 2. :information_source: Information :information_source:
 3. :exclamation: Exclamation :exclamation:
 4. :question: Question :question:
@@ -78,7 +78,7 @@
 6. :memo: Memo :memo:
 7. :fire: Fire :fire:
 8. :star: Star :star:
-9. :zap: Zap :zap:
+9.  :zap: Zap :zap:
 10. :boom: Boom :boom:
 11. :memo: Memo :memo:
 12. :pushpin: Pushpin :pushpin:
@@ -86,10 +86,14 @@
 
 
 
+## Markdown COLOR!
+![**Warning**] asacs
+[!**Warning**] asacs
+![Warning] asacs
+[!Warning] asacs
 
-## COLOR!
 
-- ![#ff0000](https://placehold.it/12/ff0000?text=+) red!
+- ![##ff2010](https://placehold.it/12/ff0000?text=+) red!
 - ![#9900c5](https://placehold.it/15/9900c5?text=+) purple!
 - ![#157500](https://placehold.it/20/157500?text=+) green!
 
@@ -98,6 +102,3 @@
 ![](https://placehold.it/400x90/ff6600/000?text=WARNING!)
 
 ![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
-
-![**Warning**](https://placehold.it/15/ff0000/000000?text=+) red
-
