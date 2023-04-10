@@ -14,7 +14,11 @@
 3. Table Of Content
 
 
+## Markdown Hyper Links:
+[Hover you mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
+
 ## Markdown Notes
+
 
 > **Note**
 > This is a note
@@ -32,9 +36,7 @@
 > This is a Caution
 
 
-> **Note** --no-sing-request for Un-Authenticated Users
 
-> **Note** --region Is Required
 
 
 ```
@@ -92,8 +94,17 @@ TBD - To Fix
 11. :memo: Memo :memo:
 12. :pushpin: Pushpin :pushpin:
 13. :link: Link :link:
-
-
+14. :triangular_flag_on_post: Triangular Flag On Post :triangular_flag_on_post:
+15. :computer: Computer :computer:
+16. :pager: Pager :pager:
+17. :lock: Lock :lock:
+18. :unlock: Unlock :unlock:
+19. :key: Key :key:
+20. :bomb: Bomb :bomb:
+21. :bookmark: Bookmark :bookmark:
+22. :gun: Gun :gun:
+23. :no_entry: No Entry :no_entry:
+24. :neckbeard: Neckbeard :neckbeard:
 
 ## Markdown COLOR!
 - ![##ff2010](https://placehold.it/12/ff0000?text=+) red!
@@ -108,4 +119,3 @@ TBD - To Fix
 
 
 
-[Hover you mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
