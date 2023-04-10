@@ -98,3 +98,6 @@
 ![](https://placehold.it/400x90/ff6600/000?text=WARNING!)
 
 ![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
+
+![**Warning**](https://placehold.it/15/ff0000/000000?text=+) red
+
