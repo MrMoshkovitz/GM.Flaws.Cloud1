@@ -16,7 +16,6 @@
 
 ## Markdown Notes
 
-
 > **Note**
 > This is a note
 
