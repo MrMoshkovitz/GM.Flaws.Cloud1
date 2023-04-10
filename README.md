@@ -31,10 +31,6 @@
 > **Caution**
 > This is a Caution
 
-> **Note:** --no-sing-request for Un-Authenticated Users
-
-> **Note:** --region Is Required
-
 
 
 
