@@ -31,6 +31,7 @@
 4. ['grep'](https://www.gnu.org/software/grep/ "Grep Command Line Tool")
 5. 
 
+
 ### Important Notes From Level 1 
 | :pushpin: Pin                 | Content                                                               |
 |-------------------------------|:----------------------------------------------------------------------|
@@ -40,17 +41,12 @@
 | :pushpin:  Level 2 URL        | `http://flaws.cloud.s3-website-us-west-2.amazonaws.com/level2`        |
 
 
-
-
 ### Commands Used in Level 1 
 | :pager: Command                                                                           | Description                                                           |
 |-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 | :pager:  `nslookup flaws.cloud`                                                           | Execute NS Lookup Against Challenge URL                               |   
-|-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 | :pager `aws s3 ls  s3://flaws.cloud/ --no-sign-request --region us-west-2`                | Access & List S3 Bucket Files using AWS CLI - Un-Authenticated        |
-|-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 | :pager:  `curl -s http://flaws.cloud/secret-dd02c7c.html | grep -oP '<a href="\K[^"]+'`   | Get Level 2 URL From Secret File                                      |
-|-------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 
 
 ### Level 1 Steps
@@ -119,7 +115,6 @@ Authoritative answers can be found from:
 | :warning: WARNING                                 | 
 |:--------------------------------------------------|
 | :triangular_flag_on_post: --no-sign-request       |
-|:--------------------------------------------------|
 | :triangular_flag_on_post: --region us-west-1  |
 
 #### level 1 Step 3 Response - Discovered Secret File
