@@ -16,6 +16,7 @@
 
 ## Markdown Notes
 
+
 > **Note**
 > This is a note
 
@@ -32,26 +33,8 @@
 > This is a Caution
 
 
-::: {.callout-note}
-Note that there are five types of callouts, including:
-`note`, `warning`, `important`, `tip`, and `caution`.
-:::
 
-::: {.callout-tip}
-## Tip with Title
 
-This is an example of a callout with a title.
-:::
-
-::: {.callout-caution collapse="true"}
-## Expand To Learn About Collapse
-
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
-:::
-
-::: {.callout-tip title="Tip with Title"}
-This is a callout with a title.
-:::
 
 ```
 TBD - To Fix
