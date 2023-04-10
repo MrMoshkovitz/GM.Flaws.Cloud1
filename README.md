@@ -37,3 +37,28 @@
 
 | :memo:        | Take note of this       |
 |---------------|:------------------------|
+
+
+
+
+:warning:
+:information_source:
+:exclamation:
+:question:
+:bulb:
+:fire:
+:star:
+:star2:
+:sparkles:
+:zap:
+:boom:
+:collision:
+:anger:
+:memo:
+:clipboard:
+:pushpin:
+:paperclip:
+:link:
+:paperclips:
+:scissors:
+:triangular_ruler:
