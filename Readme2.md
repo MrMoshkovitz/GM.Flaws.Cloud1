@@ -4,3 +4,4 @@
 | :exclamation::memo::exclamation:         | `52.92.145.3`           |
 |------------------------------------------|:------------------------|
 
+> **Note:** --no-sing-request for Un-Authenticated Users
