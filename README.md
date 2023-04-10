@@ -24,7 +24,10 @@
 > This is a warning
 
 > **TIP**
-> This is OK
+> This is a warning
+
+
+
 
 
 > [!NOTE]
@@ -41,6 +44,16 @@
 
 > [!WARNING]
 > Dangerous certain consequences of an action.
+
+<Warning>
+*bar*
+</Warning>
+
+
+<Note>
+*bar*
+</Note>
+
 
 
 ### Box Notes
