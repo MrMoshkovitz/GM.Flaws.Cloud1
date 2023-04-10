@@ -23,7 +23,7 @@
 > **Warning**
 > This is a warning
 
-> **Check**
+> **TIP**
 > This is OK
 
 
